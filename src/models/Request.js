@@ -7,3 +7,5 @@ const Request =  sequelize.define('Request',{
     priority:{type:DataTypes.INTEGER,allowNull:false},
     technicianId:{type:DatatTypes.INTEGER, allowNull:false},
 });
+
+module.exports = Request;
